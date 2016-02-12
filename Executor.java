@@ -23,7 +23,7 @@ public class Executor
 
     DataMonitor dm;
 
-    ZooKeeper zk;
+    ZooKeeper zk; // this should declared public
 
     String filename;
 
