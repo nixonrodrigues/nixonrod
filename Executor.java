@@ -19,12 +19,12 @@ import org.apache.zookeeper.ZooKeeper;
 public class Executor
     implements Watcher, Runnable, DataMonitor.DataMonitorListener
 {
-    String znode;
+    String znode; // initialize this string with null
 
-    DataMonitor dm;
+    DataMonitor dm; // make this variable private`
 
     ZooKeeper zk;
-
+//tesing code review
     String filename;
 
     String exec[];
